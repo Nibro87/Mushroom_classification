@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 class_names = ['Boletus','Entoloma','Russula','Suillus','Lactarius','Amanita','Agaricus','Hygrocybe','Cortinarius']
 class_names_label = {class_name:i for i, class_name in enumerate(class_names)}
 
-nb_classes = len(class_names)
+
 
 
 

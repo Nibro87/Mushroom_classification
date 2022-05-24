@@ -60,7 +60,7 @@ for i in range(len(list_index)):
 
 print('\n top 5 bud på mushrooms')
 for i in range(5):
-    print(classification[list_index[i]], ':', round(predictions[0][list_index[i]] * 100, 2), '%')
+    print(classification[list_index[i]], ':', round(x[0][list_index[i]] * 100, 2), '%')
 
 
 # In[ ]:
